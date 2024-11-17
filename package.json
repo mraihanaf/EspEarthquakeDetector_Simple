@@ -1,0 +1,21 @@
+{
+  "name": "esp_earthquake_detector_simple",
+  "version": "1.0.0",
+  "description": "Earthquake detector using sw420 sensor",
+  "main": "src/index.ts",
+  "repository": "https://github.com/mraihanaf/EspEarthquakeDetector_Simple",
+  "author": "mraihanaf",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "aedes": "^0.51.3",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
